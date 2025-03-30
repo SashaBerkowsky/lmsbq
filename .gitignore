@@ -1,0 +1,32 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+
+# Django SQLite database
+db.sqlite3
+
+# Django migrations (optional, but usually ignored in team projects)
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
+
+# Virtual environment (if using venv)
+venv/
+
+# Docker-related files
+docker-compose.yml
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables (if using dotenv)
+.env
+*.env
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+
+django-base
